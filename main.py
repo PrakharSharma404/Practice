@@ -19,10 +19,8 @@ def power(base, exponent):
     return math.pow(base, exponent)
 
 def calculator():
-	
     while True:
-        print("Jenkins CI/CD is working!")
-	print("\nScientific Calculator")
+        print("\nScientific Calculator")
         print("1. Square Root")
         print("2. Factorial")
         print("3. Natural Logarithm")
