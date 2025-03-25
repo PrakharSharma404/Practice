@@ -2,6 +2,7 @@
 - name: Deploy Docker Container
   hosts: localhost
   become: true
+  become_method: sudo
   tasks:
     - name: Pull Docker Image
       docker_image:
